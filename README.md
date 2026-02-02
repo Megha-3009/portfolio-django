@@ -21,3 +21,5 @@ A personal portfolio website built using Django.
 git clone https://github.com/Megha-3009/portfolio-django.git
 cd portfolio-django
 python manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser
