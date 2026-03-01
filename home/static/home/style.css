@@ -313,3 +313,123 @@ footer {
         text-align: center;
     }
 }
+/* GREEN THEME CARD */
+
+.project-card {
+    background: #f1fff5;
+    border-radius: 15px;
+    padding: 25px;
+    border-left: 6px solid #00c853;
+    box-shadow: 0 6px 15px rgba(0, 200, 83, 0.15);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 200, 83, 0.25);
+}
+
+/* GRID */
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* HEADINGS */
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.section h2 span {
+    color: #00c853;
+}
+
+/* CONTACT FORM GREEN */
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #00c853;
+    background: #f9fffb;
+}
+
+.contact-form button {
+    background: #00c853;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #00b34a;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-pill {
+    background: #00c853;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+/* Contact Form Styling */
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #00c853;
+    background: #f9fffb;
+}
+
+.contact-form button {
+    background: #00c853;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #00b34a;
+}
+
+/* Certification Pills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+#certifications h2 span {
+    color: #00c853;
+}
+#certifications .skill {
+    background: #00c853;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin: 5px;
+    display: inline-block;
+}
